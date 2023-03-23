@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>student-List</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <td th:text="${student.id}"></td>
+    </tr>
+    <tr>
+        <th>Full_Name</th>
+        <td th:text="${student.fullname}"></td>
+    </tr>
+    <tr>
+        <th>Phone</th>
+        <td th:text="${student.phone}"></td>
+    </tr>
+    <tr>
+        <th>Date of Birth</th>
+        <td th:text="${student.db}"></td>
+    </tr>
+    <tr>
+        <th>Gender</th>
+
+        <td th:text="${student.gender}"></td>
+    </tr>
+    <tr>
+        <th>Age</th>
+        <td th:text="${student.age}"></td>
+    </tr>
+    <tr>
+        <th>Nationality</th>
+        <td th:text="${student.nationality}"></td>
+    </tr>
+    <tr>
+        <th>Email</th>
+        <td th:text="${student.email}"></td>
+    </tr>
+    <tr>
+        <th>Address</th>
+        <td th:text="${student.address}"></td>
+
+    </tr>
+    <tr>
+        <th>Departments</th>
+        <td th:text="${student.department}"></td>
+    </tr>
+</table>
+
+
+</body>
+</html>
