@@ -25,7 +25,11 @@ public class RouteController {
     @RequestMapping({"/","student_list"})
     public String StudentListPage(ModelMap modelMap){
     modelMap.addAttribute("student",studentService.findAll());
+<<<<<<< HEAD
         System.out.println(" hello tissskskskk this file list page is working hello");
+=======
+        System.out.println("list page is working hello this is text");
+>>>>>>> 7a02b3fdfe126413759e7ca74124407228b19940
     return "/Student/StudentListPage";
     }
    //View Student By ID
